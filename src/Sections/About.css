@@ -1,0 +1,80 @@
+#About {
+    background-color: hsl(210, 65%, 20%);
+    padding-top: 32px;
+}
+
+#About .Content {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+#About .Content.Visible {
+    opacity: 1;
+}
+
+#About .LeftSide {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Skanji', cursive;
+    justify-content: center;
+    transform: translateX(-250px);
+    transition-duration: 1s;
+    width: 100%;
+}
+
+#About .Content.Visible .LeftSide {
+    transform: translateX(0px);
+}
+
+#About .LeftSide .Selfie {
+    border-radius: 25%;
+    width: 250px;
+}
+
+#About .LeftSide .Text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    padding-bottom: 12px;
+}
+
+#About .LeftSide .Text p {
+    margin: 0px 12px;
+}
+
+#About .RightSide {
+    transition-duration: 1s;
+    transform: translateX(250px);
+    width: 100%;
+}
+
+#About .Content.Visible .RightSide {
+    transform: translateX(0px);
+}
+
+#About .RightSide h1 {
+    font-family: 'Galindo', cursive;
+    font-weight: bold;
+}
+
+#About .RightSide p {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+
+#About .RightSide p a {
+    border-bottom: 1px dashed white;
+    color: white;
+}
+
+#About .RightSide p a:hover {
+    border-bottom: 1px dotted white;
+}
+
+@media (max-width: 768px) {
+    #About .row {
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,45 @@
+#ExperienceCounters {
+    background: #3949AB;
+    color: white;
+}
+
+#ExperienceCounters .Background {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+
+#ExperienceCounters .counterIcon {
+    align-items: center;
+    border: 4px white solid;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 16px;
+    height: 64px;
+    justify-content: center;
+    width: 64px;
+}
+
+#ExperienceCounters .col {
+    align-items: center;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ExperienceCounters .col .counter {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+#ExperienceCounters .col .title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+    #ExperienceCounters .row {
+        flex-direction: column;
+    }
+}

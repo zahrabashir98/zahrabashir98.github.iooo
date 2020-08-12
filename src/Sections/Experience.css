@@ -1,0 +1,150 @@
+#Experience {
+    background: #00695C;
+    color: black;
+    padding-top: 16px;
+}
+
+#Experience .sectionTitle {
+    opacity: 0;
+    text-align: center;
+    transform: translateY(200px);
+    transition-duration: 1s;
+}
+
+#Experience .Visible .sectionTitle {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#Experience .sectionDesc {
+    color: white;
+    opacity: 0;
+    text-align: center;
+    transform: translateY(200px);
+    transition-duration: 1s;
+}
+
+#Experience .Visible .sectionDesc {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#Experience .sectionDesc a {
+    color: white;
+    font-weight: bold;
+    transition-duration: 250ms;
+}
+
+#Experience .sectionDesc a:hover {
+    color: #e53935;
+}
+
+#Experience .card {
+    transform: rotate(180deg) scale(0);
+    transition-duration: 1s;
+}
+
+#Experience .Visible .card {
+    transform: rotate(0deg) scale(1);
+}
+
+#Experience .contentSection {
+    border-bottom: 1px solid #000; 
+    font-family: 'Skranji', cursive;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    text-align: center; 
+    width: 100%; 
+}
+
+#Experience .contentSection span {
+    background: white;
+    padding: 0 10px;
+}
+
+#Experience .card-title {
+    font-family: 'Galindo', cursive;
+    font-weight: bold;
+}
+
+#Experience .entry {
+    background: #757575;
+    border-radius: 4px;
+    color: white;
+    padding: 4px;
+    margin-right: 8px;
+    text-align: center;
+    transition-duration: 250ms;
+}
+
+#Experience .entry h6 {
+    margin: 0;
+    padding: 0;
+}
+
+#Experience .entry:hover {
+    background: #212121;
+}
+
+#Experience .entryWithLogo {
+    color: black;
+    border-radius: 8px;
+    padding-top: 8px;
+    text-align: center;
+    transition-duration: 250ms;
+}
+
+#Experience .entryWithLogo:hover {
+    background: rgba(0, 0, 0, .25);
+}
+
+#Experience .entryWithLogo img {
+    height: 48px;
+    width: 48px;
+}
+
+#Experience .Empty {
+    font-family: 'Skranji', cursive;
+    text-align: center;
+}
+
+#Experience .NoneText {
+    font-size: 1.765em;
+}
+
+#Experience .HireText {
+    background: #e53935;
+    border-radius: 10px;
+    color: white;
+    font-size: 18pt;
+    padding: 4px;
+    transition-duration: 250ms;
+}
+
+#Experience .HireText:hover {
+    background: #b71c1c;
+}
+
+#Experience .listSection h6 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#Experience .listSection ul {
+    color: black;
+    font-size: 12pt;
+}
+
+#Experience .experienceDescription {
+    color: black;
+    font-size: 13pt;
+    text-align: justify;
+}
+
+#Experience .entryName {
+    white-space: pre;
+}
+
+.col {
+    min-width: unset !important
+}

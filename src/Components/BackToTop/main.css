@@ -1,0 +1,18 @@
+.BackToTop {
+    bottom: 16px;
+    color: white;
+    position: fixed;
+    opacity: 0;
+    right: 16px;
+    transition-duration: 500ms;
+    z-index: 2;
+}
+
+.BackToTop:hover {
+    cursor: pointer;
+    color: #e53935;
+}
+
+.BackToTop.Visible {
+    opacity: 1;
+}

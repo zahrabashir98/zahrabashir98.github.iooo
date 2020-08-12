@@ -1,0 +1,41 @@
+#Home {
+    height: 101vh;
+}
+
+#Home .Background {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+#Home .Content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    justify-content: center;
+    transition-duration: 1s;
+    width: 100%;
+}
+
+#Home .Content.Activated {
+    opacity: 1;
+}
+
+#Home .Content h1 {
+    font-family: 'Galindo', cursive;
+}
+
+#Home .Content .animatedLetter {
+    transition-duration: 250ms;
+}
+
+#Home .Content .animatedLetter:hover {
+    color: #f44336;
+}
+
+#Home .Content h4 {
+    font-family: 'Skranji', cursive;
+}

@@ -1,0 +1,11 @@
+.footer-copyright {
+    font-weight: bold;
+    opacity: 0;
+    padding: 8px;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.footer-copyright.Visible {
+    opacity: 1;
+}

@@ -1,0 +1,59 @@
+#Contact {
+    padding: 16px 0px;
+    text-align: center;
+}
+
+#Contact .sectionContent a {
+    border-bottom: 1px dashed white;
+    color: white;
+    font-weight: bold;
+    transition-duration: 250ms;
+}
+
+#Contact .sectionContent a:hover {
+    color: #BDBDBD;
+    border-bottom: 1px dotted white;
+}
+
+#Contact .SocialIcons svg {
+    color: white;
+    margin: 0px 24px;
+    transition-duration: 500ms;
+}
+
+#Contact .SocialIcons svg:hover {
+    color: #9E9E9E;
+}
+
+#Contact .sectionTitle {
+    opacity: 0;
+    transform: translateX(-250px);
+    transition-duration: 1s;
+}
+
+#Contact .sectionContent {
+    opacity: 0;
+    transform: translateX(250px);
+    transition-duration: 1s;
+}
+
+#Contact .SocialIcons {
+    opacity: 0;
+    transform: translateY(50px);
+    transition-duration: 1s;
+}
+
+#Contact .Visible .sectionTitle {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+#Contact .Visible .sectionContent {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+#Contact .Visible .SocialIcons {
+    opacity: 1;
+    transform: translateY(0px);
+}

@@ -1,0 +1,270 @@
+{
+    "name": "Zahra Bashir",
+    "proffesions": [
+        "A CE Undergrad Student",
+        "An AI Enthusiast"
+    ],
+    "about_me": "Hi! I'm Zahra, a senior undergraduate student at IUST. In the recent years, I've become interested in AI and specifically Machine Learning. Now, I am in my 8th semester, and I'm busy doing my Final Project of BSc. I have received fully-funded admission offers for a master's degree from three universities including, the University of Alberta, Simon Frasor University, and University of Western Ontario for Fall 2020. Unfortunately, due to the pandemic, I cannot travel to Canada for the Fall semester. So, I am still in Iran working on my final project and some other projects as well. ",
+    "email": "zahrabashir98@gmail.com",
+    "workingExperience": [
+
+        {
+            "name": "Back-end developer at D & C (Ravandyar) company",
+            "url": "",
+            "notes": [
+                "Developing back-end part of an app related to ”BlockChains” and money transfer",
+                "Technology Stack: Python, Django-Rest, Git, Jira"
+            ]
+        }
+    ],
+    "TeachingExperience": [
+         
+        {
+            "name": "Computational Intelligence TA",
+            "url": "http://webpages.iust.ac.ir/mozayani/",
+            "notes": [
+                "Instructor: Dr. Nasser Mozayani",
+                "Feb 2020 – Aug 2020"
+            ]
+        },
+        {
+            "name": " Artificial Intelligence TA",
+            "url": "https://iust-courses.github.io/ai981/",
+            "notes": [
+                "Instructor: Dr. Taher Pilevar",
+                "Sep 2019 – Aug 2020"
+            ]
+        },
+        {
+            "name": "Signals and systems Teaching TA",
+            "url": "http://webpages.iust.ac.ir/mrmohammadi/index.html",
+            "notes": [
+                "Instructor: Dr. Mohammadi",
+                "Sep 2019 – Jan 2020"
+            ]
+        },
+        {
+            "name": "Software Engineering Mentor",
+            "url": "http://webpages.iust.ac.ir/m_ashtiani/",
+            "notes": [
+                "Instructor: Dr. Mehrdad Ashtiani",
+                "Sep 2019 – Jan 2020"
+            ]
+        },
+        {
+            "name": "Theory of Languages and Automata TA",
+            "url": "http://webpages.iust.ac.ir/mrmohammadi/index.html",
+            "notes": [
+                "Instructor: Dr. Hossein Rahmani",
+                "Feb 2019 – Jun 2019"
+            ]
+        },
+        {
+            "name": "System Analysis TA",
+            "url": "http://webpages.iust.ac.ir/m_ashtiani/",
+            "notes": [
+                "Instructor: Dr. Mehrdad Ashtiani",
+                "Feb 2019 – Jun 2019"
+            ]
+        },
+        {
+            "name": "Discrete Math TA",
+            "url": "http://webpages.iust.ac.ir/vhakami/",
+            "notes": [
+                "Instructor: Dr. Vesal Hakami",
+                "Feb 2018 – Jun 2018"
+            ]
+        },
+        {
+            "name": "Programming Basics TA",
+            "url": "http://webpages.iust.ac.ir/zmovahedi/",
+            "notes": [
+                "Dr. Zeinab Movahhedi",
+                "Sep 2017 – Jun 2018"
+            ]
+        }
+        
+    ],
+    "AcademicExperience": [
+        {
+            "name": "Machine Learning Researcher at MAS Lab",
+            "url": "http://webpages.iust.ac.ir/mozayani/",
+            "notes": [
+                "Under the supervision of Dr. Mozayyani",
+                "Researching on ”Image Caption Generation” and customizing image captioning in Farsi"
+            ]
+        },
+        {
+            "name": "ChillinWars Developer and Technical Manager",
+            "url": "",
+            "notes": [
+                "ChillinWars is Iran University of Science and Technology’s AI contest. It’s been held every year in Iran as a well-known programming contest in form of artificial intelligence implementation",
+                " Working as a full-stack developer of Junior Game of this competitions in 2018 -2019 with its exclusive framework"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "name": "B.Sc. in Computer Engineering with a concentration on AI",
+            "url": "http://www.iust.ac.ir/en",
+            "notes": [
+                "Iran University of Science and Technology, Tehran, Iran",
+                "Ranked 3rd among Iran Universities based on QS Ranking",
+                "GPA(Last 55 credits): 3.85/4 (18.5/20)",
+                "GPA (up to now) via 141 units: 3.8/4 (17.80/20)"
+            ]
+        },
+        {
+            "name": "Diploma in Mathematics and Physics Discipline",
+            "url": "",
+            "notes": [
+                "Farzanegan HighSchool, Tehran, Iran",
+                "Affiliated with the National Organization for Development of Exceptional Talents"
+            ]
+        }
+    ],
+    "humanLanguages": [
+        {
+            "name": "English",
+            "description": "Advanced"
+        },
+        {
+            "name": "Persian",
+            "description": "Native"
+        },
+        {
+            "name": "Arabic",
+            "description": "Beginner"
+        }
+    ],
+    "experienceDescriptionCard1": {
+        "name": "Game Development",
+        "content": "There is no part of the game development pipeline that I have not touched, and while every aspect of it is fun, I particularly enjoy network and gameplay programming."
+    },
+    "experienceDescriptionCard2": {
+        "name": "Programming",
+        "content": "I love making useful apps, services and solutions. For me it is fun, while my focus is on game development, I am also making prototypes of services, scripts, and other things that can make my (and your!) life easier."
+    },
+    "projects": [
+        {
+            "title": "NRLP Identification",
+            "shortDescription": "It is a project based on the combination of RL and NLP in a special task (Propaganda Detection)",
+            "description": "https://gitlab.com/zahra_b77/nrlp-propaganda-recognition/-/blob/master/README.md",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "link": "https://gitlab.com/zahra_b77/nrlp-propaganda-recognition/-/tree/master/src"
+                },
+                {
+                    "title": "Download",
+                    "link": "https://gitlab.com/zahra_b77/nrlp-propaganda-recognition"
+                }
+            ]
+        },
+        {
+            "title": "ChillinWars Junior Games",
+            "shortDescription": "Designing junior-level games for Chillinwars' comptetition held on 2019",
+            "description": "You can refer to https://github.com/Chillin-Examples/ for more information",
+            "links": [
+                {
+                    "title": "Github Page",
+                    "link": "https://github.com/Chillin-Examples/Pacman"
+                }
+            ]
+        },
+        {
+            "title": "Face-Recognition-and-Tracking",
+            "shortDescription": "Assist Teachers using Face Recognition to check who is present and who is absent!",
+            "description": "https://github.com/zahrabashir98/Face-Recognition-and-Tracking/blob/master/README.md",
+            "links": [
+                {
+                    "title": "Github Page",
+                    "link": "https://github.com/zahrabashir98/Face-Recognition-and-Tracking"
+                }
+            ]
+        },
+        
+        {
+            "title": "Detection of Propaganda Techniques in News Articles",
+            "shortDescription": "My final project for the Deep Learning course",
+            "description": "https://github.com/zahrabashir98/Detection-of-Propaganda-Techniques/blob/master/README.md",
+            "links": [
+                {
+                    "title": "Github Page",
+                    "link": "https://github.com/zahrabashir98/Detection-of-Propaganda-Techniques"
+                }
+            ]
+        },
+        {
+            "title": "Inverted Pendulum",
+            "shortDescription": "Using two approaches: RL - Fuzzy Logics",
+            "description": "https://github.com/zahrabashir98/Inverted-Plenduim/blob/master/README.md",
+            "links": [
+                {
+                    "title": "Github Page",
+                    "link": "https://github.com/zahrabashir98/Inverted-Plenduim"
+                }
+            ]
+        },
+        
+     {
+            "title": "DTMF",
+            "shortDescription": "Dual Tone Multi Frequency Signaling",
+            "description": "https://github.com/zahrabashir98/Dual-Tone-Multi-Frequency-signaling/blob/master/README.md",
+            "links": [
+                {
+                    "title": "Github Page",
+                    "link": "https://github.com/zahrabashir98/Dual-Tone-Multi-Frequency-signaling"
+                }
+            ]
+        },
+        {
+            "title": "Farsi Neural Image Caption Generation",
+            "shortDescription": "Using attention mechanism",
+            "description": "https://raw.githubusercontent.com/GrzybDev/BFBC2_MasterServer/master/README.md",
+            "links": [
+                {
+                    "title": "Github Page",
+                    "link": "https://drive.google.com/drive/folders/1-0Bb3AHb_-xdEEuSZyVm5D3wU7Tk_4MU"
+                }
+            ]
+        },
+       
+        {
+            "title": "Smile Detection",
+            "shortDescription": "Detection of Smile using deep learning tools",
+            "description": "data:,***Note: Due to questionable legality of this project, source code unfortunately are not available***",
+            "links": [
+                {
+                    "title": "Github Page",
+                    "link": "https://github.com/zahrabashir98/SmileDetection"
+                }
+            ]
+        },
+        {
+            "title": "Detect your political vision!",
+            "shortDescription": "A text classification project",
+            "description": "https://raw.githubusercontent.com/GrzybDev/HQSolver/master/README.md",
+            "links": [
+                {
+                    "title": "Github Page",
+                    "link": "https://github.com/zahrabashir98/Detect-Your-Political-Vision-By-Your-Texts"
+                }
+            ]
+        }
+        
+        
+        
+    ],
+    "startTime": "2017-12-01",
+    "clientsCount": 0,
+    "awardsCount": 0,
+    "socials": {
+        "facebook": null,
+        "twitter": "https://twitter.com/_zahra_b77",
+        "instagram": "https://www.instagram.com/_.zahra_.77/",
+        "linkedin": "https://www.linkedin.com/in/zahra-bashir-9a8488178/",
+        "twitch": null,
+        "youtube": null
+    }
+}

@@ -1,0 +1,19 @@
+nav {
+    font-family: 'Open Sans', sans-serif;
+    transform: translateY(-200px);
+    transition-duration: 1s;
+}
+
+nav.Visible {
+    transform: translateY(0px);
+}
+
+.navbar-brand {
+    cursor: pointer;
+    font-family: 'Unica One', cursive;
+    text-align: center;
+}
+
+.nav-link svg { 
+    margin-right: 8px;
+}

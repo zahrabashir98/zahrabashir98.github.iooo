@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Galindo|Lato|Open+Sans|Skranji&display=swap');
+
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+#SiteRoot {
+    background: #263238;
+    color: white;
+}
+
+.sectionTitle {
+    color: white;
+    font-family: 'Galindo', cursive;
+    font-weight: bold;
+}
