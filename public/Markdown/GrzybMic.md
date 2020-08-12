@@ -38,7 +38,7 @@ For setup guide please visit project page located [here](https://grzybmic.web.ap
 Project is finished, but in case of any major bug, crash or so, I'll update it.
 
 ## License
-For any licensing questions please contact me via email [grzybdev@gmail.com](mailto:grzybdev@gmail.com)
+For any licensing questions please contact me via email [grzybzahradev@gmail.com](mailto:grzybdev@gmail.com)
 
 ## Credits
 Main Programmer/Developer - Zahra Bashir (@Zahra)
